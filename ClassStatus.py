@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 
+# Tired of checking for the course status again and agin so I wrote this script to check it for me
+# Chage the "class_link" to the class that you are checking
+# This scipt will check the course page every minute to see if it's open or not, if it's open, it will open the course page with your browser
+
 import requests
 import webbrowser as wb
 import time
