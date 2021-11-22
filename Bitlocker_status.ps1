@@ -1,0 +1,1 @@
+If((manage-bde -status C:) -like '*Fully Encrypted*' -or (manage-bde -status C:) -like '*Used Space Only Encrypted*') {$true} Else {$false}
