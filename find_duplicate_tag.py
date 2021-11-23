@@ -1,4 +1,4 @@
-#Export all agent info with serial tag from Kaseya
+#Export all agent info with serial tag
 # change file_path to where the exported file is
 file_path = 'ExportManageAgentList.csv'
 # change the column number to where serial tag is
